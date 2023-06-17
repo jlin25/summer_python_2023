@@ -1,0 +1,24 @@
+#Hey! This is a sample answer key for week 1.
+
+print("Hi everyone! This is Joyce and I'm going to tell you a few things about myself.")
+print()
+print("At some point in my life, I've played almost every single sport. Now I figure skate! I also played the violin for about 6 years and the piano for 7.")
+print()
+'''I love watching netflix at home or going out with my friends. 
+
+Taking a break is important too!'''
+
+print("A random thing I really enjoy is calculus. Calc was such a fun course for me becayse you learn so many new concepts! With that being said, let's review some math!")
+print()
+x = 5
+y = 10
+print("x is", x, "and y is", y)
+print("x+y is", x + y)
+print()
+print("What is... 5*7+6*(5-4+5) / 45 + (6*4/2) -38923 + 5894058")
+print("The answer is: ", 5*7+6*(5-4+5) / 45 + (6*4/2) -38923 + 5894058)
+
+#one final question
+print("What's your favorite subject and why?")
+
+#See you Sunday!
