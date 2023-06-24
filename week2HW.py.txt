@@ -1,0 +1,25 @@
+#Hello everyone! This is the answer key for week 2: variables.
+'''Problem Summary: 
+One pepperoni pizza has 28 pepperonis on it. An entire pizza box costs $10.5. Bob is having a party and orders 17 boxes. 
+
+Q1: How much money did Bob spend?
+Q2: If Bob takes off ¼ of the pepperoni on each pizza,   .   how much pepperoni did he take out?
+Q3: Mary orders 2 boxes of pizza with a 10% tax. How         .   much money did Mary spend? (Hint: 10% tax = x1.1)'''
+
+pepperoni = 28
+cost = 10.5
+pizzas = 17
+#Q1
+money = pizzas * cost
+print("Bob spent a total of", money, "dollars.")
+#Q2
+newPepperoni = pepperoni / 4
+totalPep = newPepperoni * pizzas
+print("If Bob took out 1/4 of the pepperonis on each pizza, he took out", totalPep, "pepperonis.")
+#Q3
+tax = 1.1
+pizzas = 2
+moneySpent = pizzas * tax * cost
+print("After tax, Mary spent", moneySpent, "dollars.")
+
+#See you Sunday!
