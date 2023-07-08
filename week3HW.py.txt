@@ -1,0 +1,28 @@
+#This is week 3's homework: conditionals and formatting! Hope you had a great Fourth of July!
+print("Welcome to McDonald's!")
+print("Please take a look at our menu! ")
+print()
+print("Menu:")
+print("----------------")
+print("(1) Burger\tPrice: $3")
+print("(2) Pizza\tPrice: $6.5")
+print("(3) Nuggets\tPrice: $2.5")
+print("(4) Fries\tPrice: $1.5")
+
+print()
+order = int(input("What will you order today? (1, 2, 3, 4): "))
+cost = 0
+if (order == 1):
+  cost = 3
+  print("Your total is ${}".format(cost))
+elif(order == 2):
+  cost = 6.5
+  print("Your total is ${}".format(cost))
+elif(order == 3):
+  cost = 2.5
+  print("Your total is ${}".format(cost))
+elif(order == 4):
+  cost = 1.5
+  print("Your total is ${}".format(cost))
+else:
+  print("That isn't on the menu!")
