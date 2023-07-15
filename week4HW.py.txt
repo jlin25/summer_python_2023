@@ -1,0 +1,14 @@
+print("Week 4 HW Key")
+#Objective: Make a program that calculates how long it will take (how many hours) to make $10,000 if you make $25 an hour and work 100 hours a week.
+
+hours = 0
+hourlyProfit = 25
+totProfit = 0
+
+while (totProfit < 10,000):
+  hours+=1
+  totProfit += hourlyProfit
+
+print("After {} hours, you will finally make $10,000.".format(hours))
+
+#Note that a free replit account may not be able to run this program due to the sheer size of code. 
