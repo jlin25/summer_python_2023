@@ -1,0 +1,99 @@
+import turtle
+def draw_lake_landscape():
+    # Create a turtle object
+    landscape_turtle = turtle.Turtle()
+
+    # Set the speed of the turtle
+    landscape_turtle.speed(10)
+
+    # Draw the sky
+    landscape_turtle.color("#87CEEB")  # Sky Blue
+    landscape_turtle.begin_fill()
+    landscape_turtle.penup()
+    landscape_turtle.goto(-300, 150)
+    landscape_turtle.pendown()
+    for _ in range(2):
+        landscape_turtle.forward(600)
+        landscape_turtle.right(90)
+        landscape_turtle.forward(300)
+        landscape_turtle.right(90)
+    landscape_turtle.end_fill()
+
+    # Draw the sun
+    landscape_turtle.color("yellow")
+    landscape_turtle.penup()
+    landscape_turtle.goto(-210, 50)
+    landscape_turtle.pendown()
+    landscape_turtle.begin_fill()
+    landscape_turtle.circle(40)
+    landscape_turtle.end_fill()
+
+    
+
+    # Draw the mountains
+    landscape_turtle.color("#A9A9A9")  # Dark Gray
+    landscape_turtle.penup()
+    landscape_turtle.goto(-300, -50)
+    landscape_turtle.pendown()
+    landscape_turtle.begin_fill()
+    landscape_turtle.goto(-200, 50)
+    landscape_turtle.goto(-100, -50)
+    landscape_turtle.goto(0, 50)
+    landscape_turtle.goto(100, -50)
+    landscape_turtle.goto(200, 50)
+    landscape_turtle.goto(300, -50)
+    landscape_turtle.goto(300, -150)
+    landscape_turtle.goto(-300, -150)
+    landscape_turtle.end_fill()
+  
+    # Draw the lake
+    landscape_turtle.color("#1E90FF")  # Dodger Blue
+    landscape_turtle.penup()
+    landscape_turtle.goto(-300, -150)
+    landscape_turtle.pendown()
+    landscape_turtle.begin_fill()
+    landscape_turtle.goto(300, -150)
+    landscape_turtle.goto(300, -70)
+    landscape_turtle.goto(-300, -70)
+    landscape_turtle.end_fill()
+
+  #draw sand
+    landscape_turtle.fillcolor("tan")
+    landscape_turtle.begin_fill()
+    landscape_turtle.goto(-300, -70)
+    landscape_turtle.goto(300, -70)
+    landscape_turtle.goto(300, -50)
+    landscape_turtle.goto(-300, -50)
+    landscape_turtle.end_fill()
+  
+    
+    landscape_turtle.color("blue")
+    landscape_turtle.pensize(1)
+    landscape_turtle.penup()
+    landscape_turtle.goto(260, -100)
+    landscape_turtle.pendown()
+    for i in range(3):
+        landscape_turtle.setheading(90)
+        landscape_turtle.circle(10, 180)
+        landscape_turtle.circle(-10, 180)
+    landscape_turtle.color("blue")
+    landscape_turtle.pensize(1)
+    landscape_turtle.penup()
+    landscape_turtle.goto(60, -130)
+    landscape_turtle.pendown()
+    for i in range(3):
+        landscape_turtle.setheading(90)
+        landscape_turtle.circle(10, 180)
+        landscape_turtle.circle(-10, 180)
+    landscape_turtle.color("blue")
+    landscape_turtle.pensize(1)
+    landscape_turtle.penup()
+    landscape_turtle.goto(-80, -90)
+    landscape_turtle.pendown()
+    for i in range(3):
+        landscape_turtle.setheading(90)
+        landscape_turtle.circle(10, 180)
+        landscape_turtle.circle(-10, 180)
+    # Hide the turtle and display the result
+    landscape_turtle.hideturtle()
+    turtle.done()
